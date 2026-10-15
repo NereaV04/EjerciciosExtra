@@ -54,7 +54,7 @@ class MenuStreaming
                     buscarPorTitulo();
                     break;
                 case 6:
-                    // filtrarPeliculas();
+                    filtrarPeliculas();
                     break;
 
                 case OpcionSalir:
@@ -65,6 +65,10 @@ class MenuStreaming
         } while (opcion != OpcionSalir);
     }
 
+    private void filtrarPeliculas()
+    {
+        
+    }
     private void buscarPorTitulo()
     {
         string tituloABuscar = pedirString("Ingrese el título a buscar: ");
